@@ -16,7 +16,8 @@ use App\Http\Controllers\ComicController;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
+
 
 // Route::get('/comics', function () {
 //     $comicsFile = public_path('comics.php');
