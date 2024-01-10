@@ -1,1 +1,11 @@
 @import '~bootstrap/scss/bootstrap';
+.card-body .description,
+    .card-body .price {
+        display: none;
+    }
+
+    .card-body:hover .description,
+    .card-body:hover .price,
+    .card-body:hover .details {
+        display: block;
+    }

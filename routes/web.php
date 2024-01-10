@@ -27,3 +27,4 @@ Route::get('/', function () {
 //     } 
 // });
 Route::resource('comics',ComicController::class);
+Route::get('/search', [ComicController::class, 'search'])->name('comics.search');
